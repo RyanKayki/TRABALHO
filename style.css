@@ -1,0 +1,173 @@
+/*--- MENU PRINCIPAL ---*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the container */
+.container {
+    background-color: #9933cc; /* Cor de fundo roxa para a caixa */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Style the box */
+.box {
+    background-color: #fff; /* Cor de fundo branca para o conteúdo */
+    padding: 2%;
+    width: 40%;
+    border-radius: 10px; /* Borda arredondada para a caixa de conteúdo */
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Sombra ao redor da caixa */
+}
+
+/* Style the welcome heading */
+h1 {
+    text-align: center;
+    color: #000; /* Cor roxa para o título */
+    font-size: 40px;
+    
+}
+
+/* Style the buttons */
+.button {
+    background-color: #9933cc; /* Cor de fundo branca para o botão */
+    color: #f3f2f2; /* Cor roxa para o texto do botão */
+    font-size: 24px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+/* Change button background color on hover */
+.button:hover {
+    background-color: #f3f2f2; /* Cor roxa ao passar o mouse */
+    color: #9933cc; /* Cor branca ao passar o mouse */
+    transition: 0.5s;
+}
+.button-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/*--- CALCULO DE HORA EXTRA ---*/
+body1 {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    background-color: #8a2be2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 7px 10px rgba(0, 0, 0, 0.2);
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.h11 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #f0f0f0;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #7cd47e;
+}
+
+/* Estilo para o botão "Limpar" */
+#limpar {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+}
+
+#limpar:hover {
+    background-color: #c82333;
+}
+
+#resultado {
+    margin-left: 35%;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+#data-hora {
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 30%;
+}
+/*--- AUMENTO DE SALÁRIO ---*/
+#resultado2 {
+    margin-left: 35%;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+}
+/*--- TRANSPORTE DE COLABORADORES ---*/
+#resultado3 {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+}
+.voltar {
+    background-color: #943399; /* Cor de fundo branca para o botão */
+    color: #f3f2f2; /* Cor roxa para o texto do botão */
+    font-size: 10px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin-left: 80%;
+}
+.voltar:hover {
+    background-color: red; /* Cor roxa ao passar o mouse */
+    color: #fff; /* Cor branca ao passar o mouse */
+    transition: 0.5s;
+}
